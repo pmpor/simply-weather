@@ -22,6 +22,12 @@
   font-size: large;
 }
 
+.blur {
+  color: transparent;
+  text-shadow: 0 0 4rem rgba(255, 255, 255, 1);
+  animation: text-shadow 1s;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

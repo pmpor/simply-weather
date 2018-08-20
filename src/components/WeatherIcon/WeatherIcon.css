@@ -1,18 +1,7 @@
 .WeatherIcon-wrapper {
-  color:#444;
-  font-size:4em;
-  text-shadow:1px 1px 3px #ccc;
+  font-size:10rem;
 }
 
 .WeatherIcon-wrapper i:hover {
   cursor:pointer;
-  animation: color-change 10s infinite alternate;
-}
-
-@keyframes color-change {
-  0% { color: #444; }
-  25% { color: red; }
-  50% { color: blue; }
-  75% { color: yellow;}
-  100% { color: green; }
 }

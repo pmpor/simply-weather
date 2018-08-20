@@ -5,7 +5,7 @@ class WeatherIcon extends PureComponent {
   render() {
     return (
       <div className="WeatherIcon-wrapper">
-        <i class={`wi wi-owm-${this.props.weatherConditionId}`}></i>
+        <i className={`wi wi-owm-${this.props.weatherConditionId}`}></i>
       </div>
     );
   }
