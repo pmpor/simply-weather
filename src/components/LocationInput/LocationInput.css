@@ -1,0 +1,10 @@
+.LocationInput-wrapper {}
+
+.LocationInput-wrapper input {
+  width: 75%;
+  margin:0 auto;
+  border:none;
+  padding:10px;
+  font-size:1rem;
+  box-shadow:0 0 10px #333;
+}
